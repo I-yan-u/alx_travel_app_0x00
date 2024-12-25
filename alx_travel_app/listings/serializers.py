@@ -29,5 +29,3 @@ class BookingSerializer(serializers.ModelSerializer):
 
     def get_listing(self, obj):
         return obj.listing.title
-    
-
